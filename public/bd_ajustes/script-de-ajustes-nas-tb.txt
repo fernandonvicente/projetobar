@@ -1,0 +1,18 @@
+ALTER TABLE `radiocensura81`.`categoria_servico` 
+ADD COLUMN `created_at` TIMESTAMP NULL AFTER `categoria_servico_id`,
+ADD COLUMN `updated_at` TIMESTAMP NULL AFTER `created_at`;
+
+ALTER TABLE `radiocensura81`.`servico_categoria` 
+ADD COLUMN `created_at` TIMESTAMP NULL AFTER `categoria_servico_id`,
+ADD COLUMN `updated_at` TIMESTAMP NULL AFTER `created_at`;
+
+ALTER TABLE `radiocensura81`.`servicos` 
+ADD COLUMN `created_at` TIMESTAMP NULL AFTER `dataExclusao`,
+ADD COLUMN `updated_at` TIME NULL AFTER `created_at`;
+
+ALTER TABLE `radiocensura81`.`servico_programacao` 
+ADD COLUMN `created_at` TIMESTAMP NULL AFTER `voz`,
+ADD COLUMN `updated_at` TIMESTAMP NULL AFTER `created_at`;
+
+
+

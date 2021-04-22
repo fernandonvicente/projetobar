@@ -1,0 +1,172 @@
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews
+    </IfModule>
+
+    RewriteEngine On
+
+    # Redirect Trailing Slashes If Not A Folder...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)/$ /$1 [L,R=301]
+
+    # Handle Front Controller...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+
+    # Handle Authorization Header
+    RewriteCond %{HTTP:Authorization} .
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+</IfModule>
+
+redirect 301 /hits-e-sucessos-populares https://www.talksat.com.br/solucoes/hits-e-sucessos-populares
+redirect 301 /pop-e-jovem https://www.talksat.com.br/solucoes/pop-e-jovem
+redirect 301 /programetes-e-pilulas-interativas https://www.talksat.com.br/solucoes/programetes-e-pilulas-interativas
+redirect 301 /sertanejo https://www.talksat.com.br/solucoes/sertanejo
+redirect 301 /humor https://www.talksat.com.br/solucoes/humor
+redirect 301 /flash-back-e-noturnos https://www.talksat.com.br/solucoes/flash-back-e-noturnos
+redirect 301 /programetes-e-informativos https://www.talksat.com.br/solucoes/programetes-e-informativos
+redirect 301 /esportes https://www.talksat.com.br/solucoes/esportes
+redirect 301 /vozes-do-modulo-grave https://www.talksat.com.br/solucoes/vozes-do-modulo-grave
+redirect 301 /temas-cantados https://www.talksat.com.br/solucoes/temas-cantados
+redirect 301 /programas-gratuitos https://www.talksat.com.br/solucoes/programas-gratuitos
+redirect 301 /vozes-do-modulo-radio https://www.talksat.com.br/solucoes/vozes-do-modulo-radio
+redirect 301 /mpb-e-nacionais https://www.talksat.com.br/solucoes/mpb-e-nacionais
+redirect 301 /business https://www.talksat.com.br/solucoes/business
+redirect 301 /gravacao-comercial https://www.talksat.com.br/solucoes/gravacao-comercial
+
+
+
+redirect 301 /vozes-do-modulo-gravel https://www.talksat.com.br/solucoes/gravacao-comercial
+redirect 301 /vozes-do-modulo-radio https://www.talksat.com.br/solucoes/gravacao-comercial
+
+redirect 301 /a-vida-e-um-show https://www.talksat.com.br/programa/a-vida-e-um-show
+redirect 301 /gravacoes-personalizadas-mensagens-do-dia https://www.talksat.com.br/programa/gravacoes-personalizadas-mensagens-do-dia
+redirect 301 /tonho-dos-couros-acima-100-mil-hab https://www.talksat.com.br/programa/tonho-dos-couros-acima-100-mil-hab
+redirect 301 /tonho-dos-couros-ate-100-mil-hab https://www.talksat.com.br/programa/tonho-dos-couros-ate-100-mil-hab
+redirect 301 /tonho-dos-couros-ate-50-mil-hab https://www.talksat.com.br/programa/tonho-dos-couros-ate-50-mil-hab
+redirect 301 /toque-de-mulher https://www.talksat.com.br/programa/toque-de-mulher
+redirect 301 /cidade-in-love https://www.talksat.com.br/programa/cidade-in-love
+redirect 301 /estudio-show https://www.talksat.com.br/programa/estudio-show
+redirect 301 /modulo-grave-25-offs-mensais https://www.talksat.com.br/programa/modulo-grave-25-offs-mensais
+redirect 301 /modulo-grave-30-offs-mensais https://www.talksat.com.br/programa/modulo-grave-30-offs-mensais
+redirect 301 /modulo-grave-40-offs-mensais https://www.talksat.com.br/programa/modulo-grave-40-offs-mensais
+redirect 301 /modulo-grave-50-offs-mensais https://www.talksat.com.br/programa/modulo-grave-50-offs-mensais
+redirect 301 /modulo-radio-10-offs-mensais https://www.talksat.com.br/programa/modulo-radio-10-offs-mensais
+redirect 301 /modulo-radio-15-offs-mensais https://www.talksat.com.br/programa/modulo-radio-15-offs-mensais
+redirect 301 /modulo-radio-20-offs-mensais https://www.talksat.com.br/programa/modulo-radio-20-offs-mensais
+redirect 301 /modulo-radio-25-offs-mensais https://www.talksat.com.br/programa/modulo-radio-25-offs-mensais
+redirect 301 /modulo-radio-30-offs-mensais https://www.talksat.com.br/programa/modulo-radio-30-offs-mensais
+redirect 301 /modulo-radio-40-offs-mensais https://www.talksat.com.br/programa/modulo-radio-40-offs-mensais
+redirect 301 /modulo-radio-50-offs-mensais https://www.talksat.com.br/programa/modulo-radio-50-offs-mensais
+redirect 301 /nacao-sertaneja https://www.talksat.com.br/programa/nacao-sertaneja
+redirect 301 /programa-alo https://www.talksat.com.br/programa/programa-alo
+redirect 301 /voce-sabia https://www.talksat.com.br/programa/voce-sabia
+redirect 301 /arena-universitaria https://www.talksat.com.br/programa/arena-universitaria
+redirect 301 /conexao-br https://www.talksat.com.br/programa/conexao-br
+redirect 301 /esporte-total https://www.talksat.com.br/programa/esporte-total
+redirect 301 /songs-by-night https://www.talksat.com.br/programa/songs-by-night
+redirect 301 /vitamina https://www.talksat.com.br/programa/vitamina
+redirect 301 /agronejo https://www.talksat.com.br/programa/agronejo
+redirect 301 /andre-aguiar https://www.talksat.com.br/programa/andre-aguiar
+redirect 301 /anne-kviatkovski https://www.talksat.com.br/programa/anne-kviatkovski
+redirect 301 /as-meninas-da-cidade https://www.talksat.com.br/programa/as-meninas-da-cidade
+redirect 301 /astral-total https://www.talksat.com.br/programa/astral-total
+redirect 301 /charles-helfer https://www.talksat.com.br/programa/charles-helfer
+redirect 301 /conexao-europa https://www.talksat.com.br/programa/conexao-europa
+redirect 301 /daniel-vidal https://www.talksat.com.br/programa/daniel-vidal
+redirect 301 /deixa-tocar-pop https://www.talksat.com.br/programa/deixa-tocar-pop
+redirect 301 /diane-villasboas https://www.talksat.com.br/programa/diane-villasboas
+redirect 301 /douglas-camargo https://www.talksat.com.br/programa/douglas-camargo
+redirect 301 /duplo-dez https://www.talksat.com.br/programa/duplo-dez
+redirect 301 /ediane-zanela https://www.talksat.com.br/programa/ediane-zanela
+redirect 301 /edicao-hits https://www.talksat.com.br/programa/edicao-hits
+redirect 301 /edicao-pop https://www.talksat.com.br/programa/edicao-pop
+redirect 301 /extravadance https://www.talksat.com.br/programa/extravadance
+redirect 301 /fernando-barros https://www.talksat.com.br/programa/fernando-barros
+redirect 301 /forro-da-melhor https://www.talksat.com.br/programa/forro-da-melhor
+redirect 301 /futebol-dos-fanaticos https://www.talksat.com.br/programa/futebol-dos-fanaticos
+redirect 301 /gisele-dos-santos https://www.talksat.com.br/programa/gisele-dos-santos
+redirect 301 /graciele-gomes https://www.talksat.com.br/programa/graciele-gomes
+redirect 301 /joga-brasil https://www.talksat.com.br/programa/joga-brasil
+redirect 301 /joice-agostinelli https://www.talksat.com.br/programa/joice-agostinelli
+redirect 301 /juliano-martinazo https://www.talksat.com.br/programa/juliano-martinazo
+redirect 301 /kleber-lucas https://www.talksat.com.br/programa/kleber-lucas
+redirect 301 /minuto-esportivo https://www.talksat.com.br/programa/minuto-esportivo
+redirect 301 /modulo-radio https://www.talksat.com.br/programa/modulo-radio
+redirect 301 /modulo-site https://www.talksat.com.br/programa/modulo-site
+redirect 301 /mpb https://www.talksat.com.br/programa/mpb
+redirect 301 /no-lance-do-jogo https://www.talksat.com.br/programa/no-lance-do-jogo
+redirect 301 /off-15-mensal https://www.talksat.com.br/programa/off-15-mensal
+redirect 301 /paixao-sertaneja https://www.talksat.com.br/programa/paixao-sertaneja
+redirect 301 /parabolica https://www.talksat.com.br/programa/parabolica
+redirect 301 /paty-ribeiro https://www.talksat.com.br/programa/paty-ribeiro
+redirect 301 /programa-personalizado-vale-a-pena https://www.talksat.com.br/programa/programa-personalizado-vale-a-pena
+redirect 301 /radio-especial https://www.talksat.com.br/programa/radio-especial
+redirect 301 /show-up-no-esporte https://www.talksat.com.br/programa/show-up-no-esporte
+redirect 301 /silva-junior https://www.talksat.com.br/programa/silva-junior
+redirect 301 /the-game https://www.talksat.com.br/programa/the-game
+redirect 301 /thomas-zancanaro https://www.talksat.com.br/programa/thomas-zancanaro
+redirect 301 /top-billboard-especial https://www.talksat.com.br/programa/top-billboard-especial
+redirect 301 /top-musical https://www.talksat.com.br/programa/top-musical
+redirect 301 /turma-do-ze-guela https://www.talksat.com.br/programa/turma-do-ze-guela
+redirect 301 /volney-teixeira https://www.talksat.com.br/programa/volney-teixeira
+redirect 301 /whats-up https://www.talksat.com.br/programa/whats-up
+redirect 301 /as-mais-mais https://www.talksat.com.br/programa/as-mais-mais
+redirect 301 /deixa-tocar-hits https://www.talksat.com.br/programa/deixa-tocar-hits
+redirect 301 /link https://www.talksat.com.br/programa/link
+redirect 301 /pistaneja https://www.talksat.com.br/programa/pistaneja
+redirect 301 /tele-tv https://www.talksat.com.br/programa/tele-tv
+redirect 301 /as-7-hits https://www.talksat.com.br/programa/as-7-hits
+redirect 301 /astros-e-estrelas https://www.talksat.com.br/programa/astros-e-estrelas
+redirect 301 /classe-a https://www.talksat.com.br/programa/classe-a
+redirect 301 /drops-news https://www.talksat.com.br/programa/drops-news
+redirect 301 /esporte-news https://www.talksat.com.br/programa/esporte-news
+redirect 301 /evandro-filho https://www.talksat.com.br/programa/evandro-filho
+redirect 301 /fofocando https://www.talksat.com.br/programa/fofocando
+redirect 301 /hits-da-noite https://www.talksat.com.br/programa/hits-da-noite
+redirect 301 /minuto-news https://www.talksat.com.br/programa/minuto-news
+redirect 301 /modulo-grave-30-offs-mensais-nao-acumulativos https://www.talksat.com.br/programa/modulo-grave-30-offs-mensais-nao-acumulativos
+redirect 301 /momento-informacao https://www.talksat.com.br/programa/momento-informacao
+redirect 301 /no-stress https://www.talksat.com.br/programa/no-stress
+redirect 301 /novelas https://www.talksat.com.br/programa/novelas
+redirect 301 /planet-parade https://www.talksat.com.br/programa/planet-parade
+redirect 301 /plugado-na-rede https://www.talksat.com.br/programa/plugado-na-rede
+redirect 301 /pop-star https://www.talksat.com.br/programa/pop-star
+redirect 301 /putz-dance https://www.talksat.com.br/programa/putz-dance
+redirect 301 /sertao-neja https://www.talksat.com.br/programa/sertao-neja
+redirect 301 /tic-toc https://www.talksat.com.br/programa/tic-toc
+redirect 301 /toque-astral https://www.talksat.com.br/programa/toque-astral
+redirect 301 /clube-da-viola https://www.talksat.com.br/programa/clube-da-viola
+redirect 301 /mpb-brasil https://www.talksat.com.br/programa/mpb-brasil
+redirect 301 /nativo-e-sertanejo https://www.talksat.com.br/programa/nativo-e-sertanejo
+redirect 301 /super-astral https://www.talksat.com.br/programa/super-astral
+redirect 301 /guia-astral https://www.talksat.com.br/programa/guia-astral
+redirect 301 /terra-sertaneja https://www.talksat.com.br/programa/terra-sertaneja
+redirect 301 /top-musical-semanal https://www.talksat.com.br/programa/top-musical-semanal
+redirect 301 /peao-neja https://www.talksat.com.br/programa/peao-neja
+redirect 301 /radio-educar https://www.talksat.com.br/programa/radio-educar
+redirect 301 /rodada-esportiva https://www.talksat.com.br/programa/rodada-esportiva
+redirect 301 /humor-abobrinha https://www.talksat.com.br/programa/humor-abobrinha
+redirect 301 /rapidinhas-do-dia https://www.talksat.com.br/programa/rapidinhas-do-dia
+redirect 301 /super-sucessos https://www.talksat.com.br/programa/super-sucessos
+redirect 301 /top-universitario https://www.talksat.com.br/programa/top-universitario
+redirect 301 /nitro-night https://www.talksat.com.br/programa/nitro-night
+redirect 301 /sambaxe https://www.talksat.com.br/programa/sambaxe
+redirect 301 /top-20 https://www.talksat.com.br/programa/top-20
+redirect 301 /top-40 https://www.talksat.com.br/programa/top-40
+redirect 301 /top-sertanejo https://www.talksat.com.br/programa/top-sertanejo
+redirect 301 /classe-a-nacional https://www.talksat.com.br/programa/classe-a-nacional
+redirect 301 /radio-novelas https://www.talksat.com.br/programa/radio-novelas
+redirect 301 /buzinaco https://www.talksat.com.br/programa/buzinaco
+redirect 301 /amigos-do-teodoro-e-sampaio https://www.talksat.com.br/programa/amigos-do-teodoro-e-sampaio
+redirect 301 /cafe-com-bobagem https://www.talksat.com.br/programa/cafe-com-bobagem
+redirect 301 /dois-minutos https://www.talksat.com.br/programa/dois-minutos
+redirect 301 /tema-final-de-ano-2017 https://www.talksat.com.br/programa/tema-final-de-ano-2017
+redirect 301 /tema-inverno-2017 https://www.talksat.com.br/programa/tema-inverno-2017
+redirect 301 /tema-outono-2017 https://www.talksat.com.br/programa/tema-outono-2017
+redirect 301 /tema-verao-2017 https://www.talksat.com.br/programa/tema-verao-2017
+redirect 301 /modulo-grave-15-offs-mensais https://www.talksat.com.br/programa/modulo-grave-15-offs-mensais
+redirect 301 /modulo-grave-20-offs-mensais https://www.talksat.com.br/programa/modulo-grave-20-offs-mensais
+redirect 301 /modulo-grave-10-offs-mensais https://www.talksat.com.br/programa/modulo-grave-10-offs-mensais
+

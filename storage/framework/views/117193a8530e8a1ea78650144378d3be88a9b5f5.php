@@ -1,0 +1,1 @@
+404<?php /**PATH C:\xampp\htdocs\laravelseterenan\resources\views/errors/404.blade.php ENDPATH**/ ?>
